@@ -1,0 +1,28 @@
+{
+  "name": "flink-typescript",
+  "version": "1.17.0-alpha1",
+  "description": "A typescript binding auto-generated from Apache Flink OpenAPI",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "generate": "rm -rf src && openapi --exportSchemas true --input=https://raw.githubusercontent.com/zentol/flink/284d3aa8883b86c88df4d11c348246060d35ad21/docs/static/generated/rest_v1_dispatcher.yml --output src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tensorsmart/flink-typescript.git"
+  },
+  "keywords": [
+    "flink"
+  ],
+  "author": "Tiger Wang <tiger@tensorsmart.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/tensorsmart/flink-typescript/issues"
+  },
+  "homepage": "https://github.com/tensorsmart/flink-typescript#readme",
+  "devDependencies": {
+    "openapi-typescript-codegen": "^0.23.0",
+    "typescript": "^4.8.4"
+  }
+}
