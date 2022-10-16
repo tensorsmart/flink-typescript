@@ -67,4 +67,8 @@ Refer to [ferdikoomen/openapi-typescript-codegen](https://github.com/ferdikoomen
 
 ## Thanks to
 
-- <https://github.com/ferdikoomen/openapi-typescript-codegen>
+- [Chesnay Schepler](https://github.com/zentol) for fixing issues in Flink OpenAPI
+- [Ferdi Koomen](https://github.com/ferdikoomen) for the great [OpenAPI Typescript code generator](https://github.com/ferdikoomen/openapi-typescript-codegen)
+
+Everyone should follow them and star their projects.
+
