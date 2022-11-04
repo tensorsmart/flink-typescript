@@ -1,11 +1,11 @@
 {
   "name": "@tensorsmart/flink-typescript",
-  "version": "1.17.0-alpha2",
+  "version": "1.16.0",
   "description": "A typescript binding auto-generated from Apache Flink OpenAPI",
   "main": "src/index.js",
   "scripts": {
     "compile": "tsc",
-    "generate": "rm -rf src && openapi --exportSchemas true --input=https://raw.githubusercontent.com/zentol/flink/284d3aa8883b86c88df4d11c348246060d35ad21/docs/static/generated/rest_v1_dispatcher.yml --output src",
+    "generate": "rm -rf src && openapi --exportSchemas true --input=https://nightlies.apache.org/flink/flink-docs-release-1.16/generated/rest_v1_dispatcher.yml --output src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
